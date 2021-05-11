@@ -1,0 +1,21 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Project Leading",
+    "timestampIso": "2021-02-01T10:00:00.000Z",
+    "weight": {
+      "incomplete": 55,
+      "complete": 55
+    },
+    "completed": true,
+    "champions": ["@Drew", "@METADREAMER"],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "entries": []
+    }
+  }
+]

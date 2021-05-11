@@ -1,0 +1,28 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Design Sprint Participation",
+    "timestampIso": "2021-03-30T10:00:00.000Z",
+    "weight": {
+      "incomplete": 8,
+      "complete": 8
+    },
+    "completed": true,
+    "champions": ["@penguin", "@METADREAMER", "@weseeclearly", "@Drew", "@kiba"],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "entries": [
+        {
+          "title": "User Testing",
+          "timestampIso": "2021-03-30T10:00:00.000Z",
+          "weight": 5,
+          "contributors": ["@Hannes"]
+        }
+      ]
+    }
+  }
+]

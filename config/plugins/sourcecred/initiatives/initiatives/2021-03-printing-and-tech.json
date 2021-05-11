@@ -1,0 +1,21 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Printing stickers and coordinating projects w/o fiat compensation",
+    "timestampIso": "2021-03-01T10:00:00.000Z",
+    "weight": {
+      "incomplete": 21,
+      "complete": 21
+    },
+    "completed": true,
+    "champions": ["@penguin"],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "entries": []
+    }
+  }
+]

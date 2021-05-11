@@ -1,0 +1,13 @@
+[
+    {
+        "type": "sourcecred/weights",
+        "version": "0.2.0"
+    },
+    {
+        "edgeWeights": {},
+        "nodeWeights": {
+            "N\u0000sourcecred\u0000initiatives\u0000initiative\u0000": 20,
+            "N\u0000sourcecred\u0000initiatives\u0000CONTRIBUTION\u0000": 12
+        }
+    }
+]
