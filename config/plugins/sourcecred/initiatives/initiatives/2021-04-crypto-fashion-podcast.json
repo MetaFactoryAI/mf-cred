@@ -1,0 +1,21 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Making CryptoFashionWeek Podcast Episode",
+    "timestampIso": "2021-04-05T10:00:00.000Z",
+    "weight": {
+      "incomplete": 5,
+      "complete": 5
+    },
+    "completed": true,
+    "champions": ["@Coldie"],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "entries": []
+    }
+  }
+]

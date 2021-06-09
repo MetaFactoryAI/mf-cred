@@ -1,0 +1,21 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Creating NFT featuring MF Bomber",
+    "timestampIso": "2021-03-01T10:00:00.000Z",
+    "weight": {
+      "incomplete": 2,
+      "complete": 2
+    },
+    "completed": true,
+    "champions": ["@engwind"],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "entries": []
+    }
+  }
+]

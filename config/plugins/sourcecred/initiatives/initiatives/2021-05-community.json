@@ -1,0 +1,28 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Improve Discord and Manage Community",
+    "timestampIso": "2021-05-01T10:00:00.000Z",
+    "weight": {
+      "incomplete": 5,
+      "complete": 5
+    },
+    "completed": true,
+    "champions": ["@CryptoAccord"],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "entries": [
+        {
+          "title": "Engaging with community + answering questions",
+          "timestampIso": "2021-05-01T10:00:00.000Z",
+          "weight": 8,
+          "contributors": ["@NiftyFifty", "@CPTNSkeletor"]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Creating video content",
+    "timestampIso": "2021-05-01T10:00:00.000Z",
+    "weight": {
+      "incomplete": 5,
+      "complete": 5
+    },
+    "completed": true,
+    "champions": ["@Felipe"],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "entries": [
+        {
+          "title": "GEAR Liquidity Video",
+          "timestampIso": "2021-05-01T10:00:00.000Z",
+          "weight": 5,
+          "contributors": ["@kiba"]
+        },
+        {
+          "title": "Creative process video",
+          "timestampIso": "2021-05-01T10:00:00.000Z",
+          "weight": 5,
+          "contributors": ["@weseeclearly"]
+        }
+      ]
+    }
+  }
+]

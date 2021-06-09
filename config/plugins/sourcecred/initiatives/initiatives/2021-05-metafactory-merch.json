@@ -1,0 +1,28 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Leading design / branding / ideas for MetaFactory Merch",
+    "timestampIso": "2021-03-01T10:00:00.000Z",
+    "weight": {
+      "incomplete": 8,
+      "complete": 8
+    },
+    "completed": true,
+    "champions": ["@Francesco"],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "entries": [
+        {
+          "title": "Onboarding Francesco Into Process",
+          "timestampIso": "2021-03-30T10:00:00.000Z",
+          "weight": 3,
+          "contributors": ["@weseeclearly"]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "Creating Forefront Profile for MF",
+    "timestampIso": "2021-03-20T10:00:00.000Z",
+    "weight": {
+      "incomplete": 3,
+      "complete": 3
+    },
+    "completed": true,
+    "champions": ["@CarlosForefront"],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "entries": []
+    }
+  }
+]

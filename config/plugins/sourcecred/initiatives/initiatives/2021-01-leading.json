@@ -1,0 +1,21 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "leading project / defining tokenomics / setting roadmap",
+    "timestampIso": "2021-01-01T10:00:00.000Z",
+    "weight": {
+      "incomplete": 64,
+      "complete": 64
+    },
+    "completed": true,
+    "champions": ["@Drew", "@METADREAMER"],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "entries": []
+    }
+  }
+]
