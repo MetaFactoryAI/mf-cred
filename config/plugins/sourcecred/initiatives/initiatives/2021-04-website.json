@@ -15,7 +15,14 @@
     "dependencies": {},
     "references": {},
     "contributions": {
-      "entries": []
+      "entries": [
+        {
+          "title": "Improving Copy",
+          "timestampIso": "2021-04-26T10:00:00.000Z",
+          "weight": 3,
+          "contributors": ["@Felipe"]
+        }
+      ]
     }
   }
 ]

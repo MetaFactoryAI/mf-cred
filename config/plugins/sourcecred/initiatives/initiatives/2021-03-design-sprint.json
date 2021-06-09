@@ -11,7 +11,7 @@
       "complete": 8
     },
     "completed": true,
-    "champions": ["@penguin", "@METADREAMER", "@weseeclearly", "@Drew", "@kiba"],
+    "champions": ["@penguin", "@METADREAMER", "@weseeclearly", "@Drew", "@kiba", "@Billy-Rae"],
     "dependencies": {},
     "references": {},
     "contributions": {
@@ -19,8 +19,14 @@
         {
           "title": "User Testing",
           "timestampIso": "2021-03-30T10:00:00.000Z",
-          "weight": 5,
+          "weight": 3,
           "contributors": ["@Hannes"]
+        },
+        {
+          "title": "Recording and uploading video",
+          "timestampIso": "2021-03-30T10:00:00.000Z",
+          "weight": 5,
+          "contributors": ["@penguin"]
         }
       ]
     }

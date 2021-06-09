@@ -4,14 +4,14 @@
     "version": "0.2.0"
   },
   {
-    "title": "Project Leading",
-    "timestampIso": "2021-02-01T10:00:00.000Z",
+    "title": "Creating Forefront Profile for MF",
+    "timestampIso": "2021-03-20T10:00:00.000Z",
     "weight": {
-      "incomplete": 55,
-      "complete": 55
+      "incomplete": 3,
+      "complete": 3
     },
     "completed": true,
-    "champions": ["@Drew", "@METADREAMER"],
+    "champions": ["@CarlosForefront"],
     "dependencies": {},
     "references": {},
     "contributions": {

@@ -7,8 +7,8 @@
     "title": "Improve Discord and Manage Community",
     "timestampIso": "2021-05-01T10:00:00.000Z",
     "weight": {
-      "incomplete": 8,
-      "complete": 8
+      "incomplete": 5,
+      "complete": 5
     },
     "completed": true,
     "champions": ["@CryptoAccord"],
@@ -17,10 +17,10 @@
     "contributions": {
       "entries": [
         {
-          "title": "Answering Community Questions",
+          "title": "Engaging with community + answering questions",
           "timestampIso": "2021-05-01T10:00:00.000Z",
-          "weight": 5,
-          "contributors": ["@NiftyFifty"]
+          "weight": 8,
+          "contributors": ["@NiftyFifty", "@CPTNSkeletor"]
         }
       ]
     }

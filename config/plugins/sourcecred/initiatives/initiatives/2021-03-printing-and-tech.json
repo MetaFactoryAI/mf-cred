@@ -15,7 +15,14 @@
     "dependencies": {},
     "references": {},
     "contributions": {
-      "entries": []
+      "entries": [
+        {
+          "title": "Helping with Packaging work",
+          "timestampIso": "2021-04-25T10:00:00.000Z",
+          "weight": 1,
+          "contributors": ["@Lucas"]
+        }
+      ]
     }
   }
 ]

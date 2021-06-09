@@ -4,14 +4,14 @@
     "version": "0.2.0"
   },
   {
-    "title": "Getting ROBOT listed in various platforms",
-    "timestampIso": "2021-04-05T10:00:00.000Z",
+    "title": "Designing Virtual Wearables",
+    "timestampIso": "2021-03-01T10:00:00.000Z",
     "weight": {
-      "incomplete": 1,
-      "complete": 1
+      "incomplete": 5,
+      "complete": 5
     },
     "completed": true,
-    "champions": ["@Magnus"],
+    "champions": ["@Sinkas", "@jin"],
     "dependencies": {},
     "references": {},
     "contributions": {

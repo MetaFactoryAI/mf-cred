@@ -4,14 +4,14 @@
     "version": "0.2.0"
   },
   {
-    "title": "Community Call Regular Participation",
+    "title": "Multisig Duty",
     "timestampIso": "2021-03-01T10:00:00.000Z",
     "weight": {
       "incomplete": 8,
       "complete": 8
     },
     "completed": true,
-    "champions": ["@BiggiePoppins", "@kiba", "@METADREAMER", "@Drew", "@Magnus", "@Sinkas", "@AATIFstudios", "@0xJoshua", "@CryptoAccord", "@carlfarterson", "@alecdalel", "@penguin", "@jin", "@victorrortvedt", "@Billy-Rae", "@CryptoDiplo"],
+    "champions": ["@penguin", "@METADREAMER", "@Drew", "@Sinkas"],
     "dependencies": {},
     "references": {},
     "contributions": {

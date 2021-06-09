@@ -4,8 +4,19 @@
         "version": "0.2.0"
     },
     {
-        "edgeWeights": {},
+        "edgeWeights": {
+            "E\u0000sourcecred\u0000discord\u0000ADDS_REACTION\u0000": {
+                "backwards": 0.0625,
+                "forwards": 0.25
+            },
+            "E\u0000sourcecred\u0000discord\u0000MENTIONS\u0000": {
+                "backwards": 0.0625,
+                "forwards": 0.125
+            }
+        },
         "nodeWeights": {
+            "N\u0000sourcecred\u0000discourse\u0000": 0.75,
+            "N\u0000sourcecred\u0000discord\u0000": 0.5,
             "N\u0000sourcecred\u0000initiatives\u0000initiative\u0000": 20,
             "N\u0000sourcecred\u0000initiatives\u0000CONTRIBUTION\u0000": 12
         }

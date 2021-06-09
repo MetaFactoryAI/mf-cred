@@ -4,14 +4,14 @@
     "version": "0.2.0"
   },
   {
-    "title": "Putting together website copy",
-    "timestampIso": "2021-04-29T10:00:00.000Z",
+    "title": "Integrating with new production partner (BarrelMaker)",
+    "timestampIso": "2021-03-01T10:00:00.000Z",
     "weight": {
       "incomplete": 5,
       "complete": 5
     },
     "completed": true,
-    "champions": ["@Felipe"],
+    "champions": ["@penguin", "@weseeclearly"],
     "dependencies": {},
     "references": {},
     "contributions": {

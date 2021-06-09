@@ -7,8 +7,8 @@
     "title": "Faciliating Creator Get-Up Meetings",
     "timestampIso": "2021-04-29T10:00:00.000Z",
     "weight": {
-      "incomplete": 8,
-      "complete": 8
+      "incomplete": 5,
+      "complete": 5
     },
     "completed": true,
     "champions": ["@Felipe"],

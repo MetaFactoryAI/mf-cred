@@ -4,14 +4,14 @@
     "version": "0.2.0"
   },
   {
-    "title": "Getting ROBOT listed in various platforms",
-    "timestampIso": "2021-04-05T10:00:00.000Z",
+    "title": "Managing Instagram",
+    "timestampIso": "2021-02-25T10:00:00.000Z",
     "weight": {
-      "incomplete": 1,
-      "complete": 1
+      "incomplete": 8,
+      "complete": 8
     },
     "completed": true,
-    "champions": ["@Magnus"],
+    "champions": ["@EsteveFLOC", "@SergioFLOC"],
     "dependencies": {},
     "references": {},
     "contributions": {
