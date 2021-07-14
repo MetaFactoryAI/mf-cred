@@ -4,11 +4,11 @@
     "version": "0.2.0"
   },
   {
-    "title": "Printing stickers and coordinating projects w/o fiat compensation",
+    "title": "Printing stickers for free",
     "timestampIso": "2021-03-01T10:00:00.000Z",
     "weight": {
-      "incomplete": 21,
-      "complete": 21
+      "incomplete": 8,
+      "complete": 8
     },
     "completed": true,
     "champions": ["@penguin"],

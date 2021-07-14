@@ -4,14 +4,14 @@
     "version": "0.2.0"
   },
   {
-    "title": "Designing VRM Wearables",
-    "timestampIso": "2021-04-01T10:00:00.000Z",
+    "title": "Apparel Photoshoot",
+    "timestampIso": "2021-02-25T10:00:00.000Z",
     "weight": {
-      "incomplete": 5,
-      "complete": 5
+      "incomplete": 20,
+      "complete": 20
     },
     "completed": true,
-    "champions": ["@jin"],
+    "champions": ["@EsteveFLOC", "@SergioFLOC"],
     "dependencies": {},
     "references": {},
     "contributions": {

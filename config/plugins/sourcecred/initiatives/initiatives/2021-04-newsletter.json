@@ -7,15 +7,22 @@
     "title": "Writing and Designing Newsletter",
     "timestampIso": "2021-04-01T10:00:00.000Z",
     "weight": {
-      "incomplete": 8,
-      "complete": 8
+      "incomplete": 13,
+      "complete": 13
     },
     "completed": true,
     "champions": ["@Felipe", "@SergioFLOC"],
     "dependencies": {},
     "references": {},
     "contributions": {
-      "entries": []
+      "entries": [
+        {
+          "title": "Regular weekly updates on newsletter",
+          "timestampIso": "2021-04-25T10:00:00.000Z",
+          "weight": 5,
+          "contributors": ["@Felipe"]
+        }
+      ]
     }
   }
 ]

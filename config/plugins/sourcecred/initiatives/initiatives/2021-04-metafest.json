@@ -1,0 +1,40 @@
+[
+  {
+    "type": "sourcecred/initiativeFile",
+    "version": "0.2.0"
+  },
+  {
+    "title": "MetaFest hosting and marketing",
+    "timestampIso": "2021-03-08T10:00:00.000Z",
+    "weight": {
+      "incomplete": 8,
+      "complete": 8
+    },
+    "completed": true,
+    "champions": ["@penguin"],
+    "dependencies": {},
+    "references": {},
+    "contributions": {
+      "entries": [
+        {
+          "title": "METADREAMER Speaking",
+          "timestampIso": "2021-03-08T10:00:00.000Z",
+          "weight": 2,
+          "contributors": ["@METADREAMER"]
+        },
+        {
+          "title": "Drew Speaking",
+          "timestampIso": "2021-03-08T10:00:00.000Z",
+          "weight": 4,
+          "contributors": ["@Drew"]
+        },
+        {
+          "title": "Jin Speaking",
+          "timestampIso": "2021-03-08T10:00:00.000Z",
+          "weight": 2,
+          "contributors": ["@jin"]
+        }
+      ]
+    }
+  }
+]

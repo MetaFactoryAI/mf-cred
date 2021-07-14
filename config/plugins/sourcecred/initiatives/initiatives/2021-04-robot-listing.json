@@ -7,11 +7,11 @@
     "title": "Getting ROBOT listed in various platforms",
     "timestampIso": "2021-04-05T10:00:00.000Z",
     "weight": {
-      "incomplete": 1,
-      "complete": 1
+      "incomplete": 3,
+      "complete": 3
     },
     "completed": true,
-    "champions": ["@Magnus"],
+    "champions": ["@Magnus", "0xJoshua", "@METADREAMER"],
     "dependencies": {},
     "references": {},
     "contributions": {

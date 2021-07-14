@@ -4,14 +4,14 @@
     "version": "0.2.0"
   },
   {
-    "title": "Integrating with new production partner (BarrelMaker)",
+    "title": "Managing Upwork Contracts for CLO3d",
     "timestampIso": "2021-03-01T10:00:00.000Z",
     "weight": {
-      "incomplete": 5,
-      "complete": 5
+      "incomplete": 17,
+      "complete": 17
     },
     "completed": true,
-    "champions": ["@penguin", "@weseeclearly"],
+    "champions": ["@weseeclearly", "@Alina"],
     "dependencies": {},
     "references": {},
     "contributions": {

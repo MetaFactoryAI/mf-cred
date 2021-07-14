@@ -7,8 +7,8 @@
     "title": "leading project / defining tokenomics / setting roadmap",
     "timestampIso": "2021-01-01T10:00:00.000Z",
     "weight": {
-      "incomplete": 64,
-      "complete": 64
+      "incomplete": 50,
+      "complete": 50
     },
     "completed": true,
     "champions": ["@Drew", "@METADREAMER"],

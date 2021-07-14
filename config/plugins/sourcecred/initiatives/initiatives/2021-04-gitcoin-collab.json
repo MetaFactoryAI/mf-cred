@@ -4,14 +4,14 @@
     "version": "0.2.0"
   },
   {
-    "title": "Building and maintaining Shop",
-    "timestampIso": "2021-03-01T10:00:00.000Z",
+    "title": "Coordination of Gitcoin collab and bridgebuilding",
+    "timestampIso": "2021-04-14T10:00:00.000Z",
     "weight": {
-      "incomplete": 47,
-      "complete": 47
+      "incomplete": 8,
+      "complete": 8
     },
     "completed": true,
-    "champions": ["@METADREAMER"],
+    "champions": ["@Yalor"],
     "dependencies": {},
     "references": {},
     "contributions": {
