@@ -7,8 +7,8 @@
     "title": "Creating NFT featuring MF Bomber",
     "timestampIso": "2021-03-01T10:00:00.000Z",
     "weight": {
-      "incomplete": 2,
-      "complete": 2
+      "incomplete": 3,
+      "complete": 3
     },
     "completed": true,
     "champions": ["@engwind"],

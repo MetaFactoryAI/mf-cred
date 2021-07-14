@@ -18,7 +18,9 @@
     "grain": "sourcecred grain"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2",
-    "dotenv-cli": "^4.0.0"
+    "dotenv-cli": "^4.0.0",
+    "graphql": "^15.5.1",
+    "graphql-request": "^3.4.0",
+    "rimraf": "^3.0.2"
   }
 }

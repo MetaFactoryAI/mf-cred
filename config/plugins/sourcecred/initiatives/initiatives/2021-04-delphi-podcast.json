@@ -15,7 +15,14 @@
     "dependencies": {},
     "references": {},
     "contributions": {
-      "entries": []
+      "entries": [
+        {
+          "title": "Talking on Delphi Podcast",
+          "timestampIso": "2021-04-05T10:00:00.000Z",
+          "weight": 5,
+          "contributors": ["@METADREAMER", "@Drew"]
+        }
+      ]
     }
   }
 ]

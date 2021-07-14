@@ -15,7 +15,14 @@
     "dependencies": {},
     "references": {},
     "contributions": {
-      "entries": []
+      "entries": [
+        {
+          "title": "Less active signing duty",
+          "timestampIso": "2021-03-01T10:00:00.000Z",
+          "weight": 3,
+          "contributors": ["@Sky"]
+        }
+      ]
     }
   }
 ]

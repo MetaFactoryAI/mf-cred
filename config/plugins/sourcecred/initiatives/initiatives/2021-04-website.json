@@ -7,8 +7,8 @@
     "title": "Website build and maintenance",
     "timestampIso": "2021-04-26T10:00:00.000Z",
     "weight": {
-      "incomplete": 13,
-      "complete": 13
+      "incomplete": 23,
+      "complete": 23
     },
     "completed": true,
     "champions": ["@EsteveFLOC", "@SergioFLOC"],

@@ -7,8 +7,8 @@
     "title": "Ceramic integration with NFTs",
     "timestampIso": "2021-05-01T10:00:00.000Z",
     "weight": {
-      "incomplete": 3,
-      "complete": 3
+      "incomplete": 8,
+      "complete": 8
     },
     "completed": true,
     "champions": ["@dysbulic"],

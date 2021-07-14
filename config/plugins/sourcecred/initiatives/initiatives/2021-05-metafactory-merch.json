@@ -4,23 +4,23 @@
     "version": "0.2.0"
   },
   {
-    "title": "Leading design / branding / ideas for MetaFactory Merch",
-    "timestampIso": "2021-03-01T10:00:00.000Z",
+    "title": "Leading design / branding / ideas for MetaGear",
+    "timestampIso": "2021-05-05T10:00:00.000Z",
     "weight": {
-      "incomplete": 8,
-      "complete": 8
+      "incomplete": 17,
+      "complete": 17
     },
     "completed": true,
-    "champions": ["@Francesco"],
+    "champions": ["@Francesco", "@weseeclearly"],
     "dependencies": {},
     "references": {},
     "contributions": {
       "entries": [
         {
-          "title": "Onboarding Francesco Into Process",
+          "title": "ZWD Patterns / Varsity Jacket",
           "timestampIso": "2021-03-30T10:00:00.000Z",
-          "weight": 3,
-          "contributors": ["@weseeclearly"]
+          "weight": 5,
+          "contributors": ["@Danielle"]
         }
       ]
     }
