@@ -27,6 +27,12 @@
           "timestampIso": "2021-04-05T10:00:00.000Z",
           "weight": 13,
           "contributors": ["@Rickard"]
+        },
+        {
+          "title": "Jush Partnership",
+          "timestampIso": "2021-04-05T10:00:00.000Z",
+          "weight": 13,
+          "contributors": ["@Anando", "@Urna"]
         }
       ]
     }

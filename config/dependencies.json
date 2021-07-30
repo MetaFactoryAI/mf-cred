@@ -1,6 +1,6 @@
 [
     {
-        "autoActivateOnIdentityCreation": false,
+        "autoActivateOnIdentityCreation": true,
         "autoInjectStartingPeriodWeight": 0.025,
         "id": "wr8IQYoYvXtQT3N8l3lETg",
         "name": "SourceCred",

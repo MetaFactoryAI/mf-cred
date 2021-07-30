@@ -17,8 +17,8 @@
         "nodeWeights": {
             "N\u0000sourcecred\u0000discourse\u0000": 0.75,
             "N\u0000sourcecred\u0000discord\u0000": 0.5,
-            "N\u0000sourcecred\u0000initiatives\u0000initiative\u0000": 20,
-            "N\u0000sourcecred\u0000initiatives\u0000CONTRIBUTION\u0000": 12
+            "N\u0000sourcecred\u0000initiatives\u0000initiative\u0000": 16,
+            "N\u0000sourcecred\u0000initiatives\u0000CONTRIBUTION\u0000": 8
         }
     }
 ]
