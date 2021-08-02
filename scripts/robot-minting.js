@@ -21,12 +21,13 @@ const NodeAddress = sc.core.address.makeAddressModule({
 const numberToWei = (n) => web3.utils.toWei(parseFloat(n).toFixed(9), 'ether');
 
 
-const MINT_TX_HASH = "";
-const MINT_DATE = "";
+const MINT_TX_HASH = "https://etherscan.io/tx/0xd5f75e9d622272dc4d969d9ed6119c4b546eea46810037654838843db02e3f81";
+const MINT_DATE = "July 30, 2021";
+const ROBOT_TOKEN_ADDRESS = "0xfb5453340C03db5aDe474b27E68B6a9c6b2823Eb";
 
 const LEDGER_PATH = 'data/ledger.json';
-const LAST_MINTING_PATH = 'scripts/toMint7Merkle.json';
-const ETH_MAIN_NET_IDENTITY_ID = "igdEDIOoos50r4YUKKRQxg";
+const LAST_MINTING_PATH = 'scripts/toMintMerkle.json';
+const ETH_MAIN_NET_IDENTITY_ID = "kGGJH0fyxcpsRRWwDepL6A";
 
 async function deductRobotAlreadyMinted(accounts, ledger) {
   const LAST_MINTING =  JSON.parse(await fs.readFile(LAST_MINTING_PATH));
@@ -89,8 +90,8 @@ async function deductRobotAlreadyMinted(accounts, ledger) {
     };
   }).filter(Boolean);
   
-  // await deductRobotAlreadyMinted([...accountsWithAddress, ...depAccounts], ledger);
-  // await fs.writeFile(LEDGER_PATH, ledger.serialize())
+  await deductRobotAlreadyMinted(accountsWithAddress, ledger);
+  await fs.writeFile(LEDGER_PATH, ledger.serialize())
   
   const newMintAmounts = {};
   let total = 0;
@@ -119,15 +120,13 @@ async function deductRobotAlreadyMinted(accounts, ledger) {
     addresses.push(address);
     amounts.push(numberToWei(amount));
 
-    return `0xfb5453340C03db5aDe474b27E68B6a9c6b2823Eb,${address},${amount.toString().replace(/,/g, '')}`
+    return `${ROBOT_TOKEN_ADDRESS},${address},${amount.toString().replace(/,/g, '')}`
   }).join('\n'));
   console.log({ total });
 
   const addressString = `[${addresses.join(',')}]`
   const amountsString = `[${amounts.join(',')}]`
-  console.log(addressString);
-  console.log(amountsString);
   
-  
-  fs.writeFile('./scripts/opsDistroDisperse.txt', [addressString, amountsString].join('\n'));
+  // fs.writeFile('./scripts/opsDistroDisperse.txt', [addressString, amountsString].join('\n'));
+  fs.writeFile('./scripts/toMintMerkle.json', JSON.stringify(merkleAmounts));
 })();
