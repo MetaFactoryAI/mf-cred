@@ -1,5 +1,15 @@
 {
-  "immediatePerWeek": 0,
-  "balancedPerWeek": 3000,
-  "maxSimultaneousDistributions": 5
+  "allocationPolicies": [
+    {
+      "budget": 400,
+      "numIntervalsLookback": 24,
+      "policyType": "BALANCED"
+    },
+    {
+      "budget": 800,
+      "discount": 0.4,
+      "policyType": "RECENT"
+    }
+  ],
+  "maxSimultaneousDistributions": 20
 }
