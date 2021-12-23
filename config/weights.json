@@ -20,6 +20,8 @@
             "N\u0000sourcecred\u0000github\u0000": 1,
             "N\u0000sourcecred\u0000github\u0000COMMIT\u0000": 0.5,
             "N\u0000sourcecred\u0000github\u0000ISSUE\u0000": 0.125,
+            "N\u0000metacred\u0000creditor\u0000CONTRIBUTION\u0000": 16,
+            "N\u0000metacred\u0000creditor\u0000RATING\u0000": 2,
             "N\u0000sourcecred\u0000initiatives\u0000CONTRIBUTION\u0000": 8,
             "N\u0000sourcecred\u0000initiatives\u0000initiative\u0000": 16
         }

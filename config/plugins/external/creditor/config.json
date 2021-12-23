@@ -1,0 +1,5 @@
+{
+  "graphUrl": "https://mf-cred.vercel.app/api/graph",
+  "declarationUrl": "https://mf-cred.vercel.app/api/declaration",
+  "identityProposalsUrl": "https://mf-cred.vercel.app/api/identities"
+}

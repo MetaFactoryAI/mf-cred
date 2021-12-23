@@ -90,20 +90,22 @@ async function deductRobotAlreadyMinted(accounts, ledger) {
     };
   }).filter(Boolean);
   
-  await deductRobotAlreadyMinted(accountsWithAddress, ledger);
-  await fs.writeFile(LEDGER_PATH, ledger.serialize())
+  // await deductRobotAlreadyMinted(accountsWithAddress, ledger);
+  // await fs.writeFile(LEDGER_PATH, ledger.serialize())
   
   const newMintAmounts = {};
+  const names = {};
   let total = 0;
   accountsWithAddress.forEach(acc => {
     const amountToMint = G.format(acc.balance, 9, '').replace(/,/g, '');
     newMintAmounts[acc.ethAddress] = amountToMint;
+    names[acc.ethAddress] = acc.identity.name;
     if (!web3Utils.isAddress(acc.ethAddress)) {
       console.log('INVALID ADD for acc: ', acc);
     }
 
     total += parseFloat(amountToMint);
-    console.log({ total, amountToMint });
+    // console.log({ total, amountToMint });
     
   });
   
@@ -120,7 +122,7 @@ async function deductRobotAlreadyMinted(accounts, ledger) {
     addresses.push(address);
     amounts.push(numberToWei(amount));
 
-    return `${ROBOT_TOKEN_ADDRESS},${address},${amount.toString().replace(/,/g, '')}`
+    return `${names[address]},${address},${amount.toString().replace(/,/g, '')}`
   }).join('\n'));
   console.log({ total });
 
@@ -128,5 +130,5 @@ async function deductRobotAlreadyMinted(accounts, ledger) {
   const amountsString = `[${amounts.join(',')}]`
   
   // fs.writeFile('./scripts/opsDistroDisperse.txt', [addressString, amountsString].join('\n'));
-  fs.writeFile('./scripts/toMintMerkle.json', JSON.stringify(merkleAmounts));
+  fs.writeFile('./scripts/toMintMerkle2.json', JSON.stringify(merkleAmounts));
 })();
