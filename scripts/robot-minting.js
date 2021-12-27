@@ -21,12 +21,12 @@ const NodeAddress = sc.core.address.makeAddressModule({
 const numberToWei = (n) => web3.utils.toWei(parseFloat(n).toFixed(9), 'ether');
 
 
-const MINT_TX_HASH = "https://etherscan.io/tx/0xd5f75e9d622272dc4d969d9ed6119c4b546eea46810037654838843db02e3f81";
-const MINT_DATE = "July 30, 2021";
+const MINT_TX_HASH = "https://etherscan.io/tx/0x87005db98711cee6e3105a9ac745ae509439ae6bf8220f56a63aaf1c27e372b5";
+const MINT_DATE = "Dec 26, 2021";
 const ROBOT_TOKEN_ADDRESS = "0xfb5453340C03db5aDe474b27E68B6a9c6b2823Eb";
 
 const LEDGER_PATH = 'data/ledger.json';
-const LAST_MINTING_PATH = 'scripts/toMintMerkle.json';
+const LAST_MINTING_PATH = 'scripts/toMintMerkle2.json';
 const ETH_MAIN_NET_IDENTITY_ID = "kGGJH0fyxcpsRRWwDepL6A";
 
 async function deductRobotAlreadyMinted(accounts, ledger) {
@@ -90,8 +90,8 @@ async function deductRobotAlreadyMinted(accounts, ledger) {
     };
   }).filter(Boolean);
   
-  // await deductRobotAlreadyMinted(accountsWithAddress, ledger);
-  // await fs.writeFile(LEDGER_PATH, ledger.serialize())
+  await deductRobotAlreadyMinted(accountsWithAddress, ledger);
+  await fs.writeFile(LEDGER_PATH, ledger.serialize())
   
   const newMintAmounts = {};
   const names = {};
@@ -129,6 +129,6 @@ async function deductRobotAlreadyMinted(accounts, ledger) {
   const addressString = `[${addresses.join(',')}]`
   const amountsString = `[${amounts.join(',')}]`
   
-  // fs.writeFile('./scripts/opsDistroDisperse.txt', [addressString, amountsString].join('\n'));
-  fs.writeFile('./scripts/toMintMerkle2.json', JSON.stringify(merkleAmounts));
+  fs.writeFile('./scripts/opsDistroDisperse3.txt', [addressString, amountsString].join('\n'));
+  fs.writeFile('./scripts/toMintMerkle3.json', JSON.stringify(merkleAmounts));
 })();
