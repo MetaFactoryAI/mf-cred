@@ -90,8 +90,8 @@ async function deductRobotAlreadyMinted(accounts, ledger) {
     };
   }).filter(Boolean);
   
-  await deductRobotAlreadyMinted(accountsWithAddress, ledger);
-  await fs.writeFile(LEDGER_PATH, ledger.serialize())
+  // await deductRobotAlreadyMinted(accountsWithAddress, ledger);
+  // await fs.writeFile(LEDGER_PATH, ledger.serialize())
   
   const newMintAmounts = {};
   const names = {};
@@ -112,7 +112,7 @@ async function deductRobotAlreadyMinted(accounts, ledger) {
   const merkleAmounts = {};
   
   for (const address in newMintAmounts) {
-    if (newMintAmounts[address] > 0) merkleAmounts[address] = newMintAmounts[address]
+    if (newMintAmounts[address] > 0.01) merkleAmounts[address] = newMintAmounts[address]
   }
   
   const addresses = [];
