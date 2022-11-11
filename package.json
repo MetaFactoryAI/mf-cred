@@ -9,7 +9,7 @@
   "dependencies": {
     "@meta-cred/sc-plugin": "^0.1.4",
     "sourcecred": "0.10.0",
-    "web3": "1.3.0",
+    "web3": "1.8.1",
     "web3-utils": "1.3.0"
   },
   "scripts": {
